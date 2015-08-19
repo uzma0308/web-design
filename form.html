@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <title>
+ form
+ </title>
+ <style>
+ #cont
+ {
+ height:700px;
+ width:1350px;
+ background-image:url("f1hd.jpg");
+ }
+ #img
+ {
+ repeat:no-repeat;
+ }
+ #head
+{
+
+border-bottom-left-radius:4em;
+border-style:solid;
+border-color:white;
+border-width:8px;
+background: linear-gradient(#D8D8D8,white);
+background-color:white;
+ height:100px;
+ width:1350px;
+ }
+#h
+{
+
+margin-left:30px;
+margin-top:10px;
+  font-family:Broadway;
+  font-style:bold;
+  color:navy blue;
+  font-size:70px;
+}
+#frm
+{
+  position:relative;
+  top:50px;
+  left:800px;
+  color:white;
+  font-size:25px;
+
+}
+#but
+{
+size:100px;
+ margin-left:150px;
+}
+ </style>
+ </head>
+<body>
+  <div id="cont">
+  <div id="head"><h1 id="h"><font color="darkcyan">Gamers</font><font color="black">Point</font></h1></div>
+  <div id="frm"><form>
+  First name:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last name: <br><input type="text" name="firstname">&nbsp;
+  <input type="text" name="lastname"><br><br>
+  Email ID:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Password: <br><input type="text" name="emailid">&nbsp;
+  <input type="password" name="password"><br><br>
+  Sex:<br> <input type="radio" name="sex" value="male">Male
+  <input type="radio" name="sex" value="female">Female<br><br>
+  Games Type:<br>
+  <input type="checkbox" name="vehicle" value="advntrs">Adventurous&nbsp;&nbsp;&nbsp;
+<input type="checkbox" name="vehicle" value="puzzl">Puzzle&nbsp;&nbsp;&nbsp;
+<input type="checkbox" name="vehicle" value="racing">Racing<br><br>
+Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
+<option value="volvo">India</option>
+<option value="saab">Australia</option>
+<option value="fiat">China</option>
+<option va<lue="audi">USA</option>
+</select><br><br>
+<button id="but">SUBMIT</button>
+</form></div>
+  </div>
+  
+ </body>
+</html>
